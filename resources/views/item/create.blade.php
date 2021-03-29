@@ -13,7 +13,6 @@
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Create Item</h3>
-                <p>item header</p>
             </div>
 
             <form class="form-horizontal" id="create_item_form" action="{{ route('item.store') }}" method="POST">
